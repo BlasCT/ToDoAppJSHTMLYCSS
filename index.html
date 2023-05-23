@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <script src="./index.js" defer></script>
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="perfil">
+          <div id="fecha">Viernes 19 de Mayo</div>
+          <h1>Hola, Blas</h1>
+          <span>Vamos a cumplir tus metas con la gracia de Dios.</span>
+        </div>
+        <div class="agregar-tarea">
+          <input type="text" id="input" placeholder="Agregar tarea" />
+          <i id="boton-enter" class="fas fa-plus-circle"></i>
+        </div>
+        <div class="seccion-tarea">
+          <h3>Estas son tus tareas pendientes:</h3>
+          <ul id="lista">
+            <li>
+              <i class="far fa-circle co" data="realizado" id="0"></i>
+              <p class="text">TRABAJANDO ANDO</p>
+              <i class="fas fa-trash de" data="eliminado" id="0"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
